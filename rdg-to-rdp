@@ -1,7 +1,8 @@
 #!/bin/bash -v
 
 #Description:
-#This converts Windows .RDG files into separate .rdp files so they can be easily imported into the MAC Remote Desktop client.
+#This converts Windows .RDG files into separate .rdp files so they can be easily imported into the MAC Remote Desktop client. Please edit this script as a template, include whatever you want from the .rdg file.
+#The only export needed in the .rdg file is the <name> which is the 'fulladdress:' in the .rdp file. If you don't need to export the username, please remove it from the script at the bottom where it creates the file.
 
 #Steps:
 #1. Change the input variable in the script to point to your downloaded .rdg file
